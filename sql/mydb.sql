@@ -20,8 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `blog kamile`
 --
-CREATE DATABASE IF NOT EXISTS `blog kamile` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE `blog kamile`;
+CREATE DATABASE IF NOT EXISTS mydb;
 
 -- --------------------------------------------------------
 

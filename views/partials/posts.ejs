@@ -1,0 +1,13 @@
+<div>
+    <% posts.forEach(post => { %>
+       <h1 class="cor"><%= post.titulo %></h1>
+       <p class="cor1"><%- post.conteudo %></p>
+       <h3 class="cor2"><%= post.autor %></h3>
+       <p><%= post.datapostagem %></p>
+       <% if(req.session.loggedin) { %>
+        <a href="/delete/<%= post.id %>" class="btn btn-danger">DELETE</a>
+      <% } %>
+       
+       <p class="separar">___________________________________________________________________________________</p>
+    <% }) %>
+</div>
